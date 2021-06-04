@@ -1,0 +1,15 @@
+a ="안녕"
+b = 4
+
+
+print (a+str(b))
+a="안녕"
+b="넌 누구니"
+c="나는 새내기야"
+d=a+b
+e=d+c
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
