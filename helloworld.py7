@@ -1,0 +1,5 @@
+def chat(name1, name2, age):
+    print("%s: 안녕? 넌 몇살이니?" % name1)
+    print("%s: 나? 나는%d" % (name2, age)+ "살이야")
+chat("지훈", "태희", 20) 
+chat("유진", "승호", 19)
