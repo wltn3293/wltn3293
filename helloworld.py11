@@ -1,0 +1,22 @@
+print("철수 : 안녕 영희야 뭐하니?")
+print("영희 : 안녕 철수야 난 니 생각해")
+
+for i in range(5) :
+    print(i)
+    print("철수 : 안녕 영희야 뭐하니?")
+    print("영희 : 안녕 철수야 난 니 생각해")
+
+
+sayhello.py 
+
+def sayhello(name,age):
+    if age < 10 :
+        print("안녕."+ name)
+    elif age <= 20 and age >= 10:
+        print("안녕하세요."+ name)
+    else :
+        print("안녕하십니까?" + name)
+sayhello ("태희",6) 
+sayhello ("태희",11)
+sayhello ("태희",21)
+sayhello ("태희",30)   
